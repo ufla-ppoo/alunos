@@ -1,2 +1,4 @@
-# alunos
-Classes Aluno e Disciplina para explicação de ArrayList e HashMap
+# Projeto Alunos
+
+Projeto com classes Aluno e Disciplina para explicação do uso de ArrayList em Java.
+
