@@ -41,8 +41,8 @@ public class Disciplina {
      */
     public boolean alunoEstaMatriculado(int matricula) {
         for (Aluno a : alunos) {
-                if (a.getMatricula() == matricula) {
-                    return true;
+            if (a.getMatricula() == matricula) {
+                return true;
             }
         }
         return false;
@@ -73,8 +73,8 @@ public class Disciplina {
      */
     public Aluno buscarAluno(int matricula) {
         for (Aluno aluno : alunos) {
-                if (aluno.getMatricula() == matricula) {
-                    return aluno;
+            if (aluno.getMatricula() == matricula) {
+                return aluno;
             }
         }
         return null;
@@ -85,8 +85,8 @@ public class Disciplina {
      */
     public Aluno buscarAluno(String nome) {
         for (Aluno aluno : alunos) {
-                if (aluno.getNome().equals(nome)) {
-                    return aluno;
+            if (aluno.getNome().equals(nome)) {
+                return aluno;
             }
         }
         return null;
